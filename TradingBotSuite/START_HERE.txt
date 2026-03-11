@@ -1,0 +1,80 @@
+╔══════════════════════════════════════════════════════════════╗
+║           🤖 TRADING BOT SUITE - START HERE                 ║
+╚══════════════════════════════════════════════════════════════╝
+
+🎯 WHAT YOU HAVE:
+=================
+This folder contains everything you need to run automated trading:
+
+📊 monte_carlo/          ← READ THIS FIRST
+   Monte Carlo simulation results showing expected profits
+   and risk analysis for £30/day vs £40/day trading
+
+🤖 polymarket/           ← RUN THIS
+   The actual trading bot for Polymarket prediction markets
+   Simple menu system - just run RUN_BOT.py
+
+📱 notifications/        ← SETUP (optional)
+   Instructions for Telegram alerts to your phone
+
+🔗 openclaw/             ← ADVANCED (optional)
+   AI agent control system for the bot
+
+
+🚀 QUICK START (3 Steps):
+=========================
+
+STEP 1: Read the Results
+   → Open: monte_carlo/MONTE_CARLO_REPORT.md
+   → See expected profits: £471/month (£30/day) or £628/month (£40/day)
+   → Understand the risks
+
+STEP 2: Run the Bot (Paper Trading)
+   → cd polymarket/
+   → python3 RUN_BOT.py
+   → Select option 1: Start Paper Trading
+   → This uses FAKE money - no risk!
+
+STEP 3: Go Live (When Ready)
+   → Edit polymarket/.env
+   → Change TRADING_MODE to LIVE
+   → Add your wallet keys
+   → Run again and select Live Trading
+
+
+⚠️  SAFETY WARNINGS:
+====================
+• ALWAYS start with PAPER trading
+• NEVER trade more than you can afford to lose
+• Set stop losses (configured at -$500 by default)
+• Monitor the bot daily
+• Use Telegram alerts for peace of mind
+
+
+💰 EXPECTED RETURNS:
+====================
+Based on Monte Carlo simulation (1000 months):
+
+With £40/day risk:
+• Expected profit: £628/month
+• 67% chance of making £500+/month
+• 99.2% chance of ANY profit
+• Max observed loss: £270
+
+With £30/day risk:
+• Expected profit: £471/month
+• 44% chance of making £500+/month
+• 99.2% chance of ANY profit
+• Max observed loss: £203
+
+
+📞 NEED HELP?
+=============
+• Check README.txt in this folder
+• Check README.md in polymarket/ folder
+• Check SETUP_TELEGRAM.md for alerts
+
+
+═══════════════════════════════════════════════════════════════
+Ready to trade? Start with Step 1 above! 🚀
+═══════════════════════════════════════════════════════════════
